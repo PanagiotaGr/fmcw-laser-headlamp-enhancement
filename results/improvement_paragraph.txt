@@ -1,0 +1,16 @@
+Προτεινόμενη παράγραφος για το μέρος βελτίωσης
+
+Ως πιθανή βελτίωση του προτεινόμενου συστήματος PC-FMCW, εξετάστηκε αναλυτικά
+η αντικατάσταση της DBPSK layer από OFDM/QAM-based communication layer, καθώς
+και η αντικατάσταση ενός fixed global threshold στο Hough accumulator από
+adaptive Otsu-based thresholding. Η πρώτη παρέμβαση στοχεύει στην αύξηση της
+spectral efficiency και του effective goodput, καθώς επιτρέπει τη χρήση
+πολλαπλών bits ανά σύμβολο μέσω QPSK ή 16-QAM στις υποφέρουσες του OFDM.
+Η σύγκριση πραγματοποιήθηκε με analytical BER models σε κανάλι AWGN και με
+first-order goodput approximation που λαμβάνει υπόψη το cyclic-prefix overhead.
+Η δεύτερη παρέμβαση στοχεύει στη μείωση των false alarms κατά την ανίχνευση
+κορυφών στον Hough space, ειδικά σε περιβάλλοντα με non-stationary clutter.
+Τα αποτελέσματα της comparative study δείχνουν ότι οι OFDM/QAM επιλογές μπορούν
+να προσφέρουν υψηλότερο effective throughput από τη baseline DBPSK, ενώ το
+adaptive Otsu thresholding μειώνει τον false alarm rate σε σχέση με ένα fixed
+global threshold baseline, χωρίς αισθητή υποβάθμιση του true detection rate.

@@ -666,21 +666,7 @@ Sensing → Tracking → Waveform Opt. → Illumination → [feedback] → Sensi
 | 28 | TTC-Adaptive | `[A/S]` | B **6×** @ TTC = 0.5s |
 | 30 | Closed-Loop ISAC | `[S]` | Σύγκλιση σε **12 iterations** |
 
-### Ιεραρχία για Paper Publication
-
-**Άμεσα publishable (ισχυρά αποτελέσματα + novelty):**
-1. Ιδέα 1: Virtual Giant Sensor (SAR για οχήματα — νέα εφαρμογή)
-2. Ιδέα 3: Blind Spot Coverage (V2X + ISCAI integration)
-3. Ιδέα 6: Danger-Adaptive Scan (cognitive FMCW)
-4. Ιδέα 12: Crossing Intention (ISCAI + pedestrian intent)
-5. Ιδέα 17: Self-Healing Codes (weather-resilient ISCAI)
-
-**Καλά για workshop/conference:**
-- Ιδέες 11, 14, 15, 28, 30
-
-**Future work (ιδέες για επόμενα papers):**
-- Ιδέες 21, 22, 23, 24, 25, 27, 29
-
+#
 ---
 
 ## Βιβλιογραφία
